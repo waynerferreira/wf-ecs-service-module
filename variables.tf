@@ -38,3 +38,8 @@ variable "capabilities" {
 
 variable "service_launch_type" {}
 variable "service_task_count" {}
+
+variable "scale_type" {}
+
+variable "task_minimum" {}
+variable "task_maximum" {}
